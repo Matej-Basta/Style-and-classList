@@ -1,0 +1,7 @@
+.alert.alert--seen {
+  opacity: 0.5;
+}
+.alert.alert--error {
+  background-color: red;
+  color: white;
+}

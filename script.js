@@ -22,9 +22,9 @@ const alertElements = Array.from(document.querySelectorAll(".alert"));
 console.log(alertElements);
 
 alertElements.forEach((element) => {
+  element.classList.add("alert--error");
   element.addEventListener("click", () => {
-    element.style.backgroundColor = "green";
-    element.style.color = "white";
+    element.classList.toggle("alert--seen");
   });
 });
 
